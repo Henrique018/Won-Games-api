@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-repositories",
+  "version": "0.0.0",
+  "description": "A lists of all repositories of React Avancado.",
+  "strapi": {
+    "name": "Repositories",
+    "icon": "code",
+    "description": "A list of all repositories of React Avancado."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Henrique Oliveira",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
