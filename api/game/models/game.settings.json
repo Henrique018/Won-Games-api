@@ -16,7 +16,7 @@
       "required": true,
       "unique": true
     },
-    "description": {
+    "short_description": {
       "type": "text",
       "required": true
     },
@@ -32,12 +32,12 @@
     "rating": {
       "type": "enumeration",
       "enum": [
-        "EVERYONE",
-        "pegi3",
-        "pegi7",
-        "pegi12",
-        "pegi16",
-        "pegi18"
+        "BR0",
+        "BR10",
+        "BR12",
+        "BR14",
+        "BR16",
+        "BR18"
       ],
       "required": true
     },
@@ -60,8 +60,8 @@
       "required": false
     },
     "categories": {
-      "via": "games",
       "collection": "category",
+      "via": "games",
       "dominant": true
     },
     "developers": {
@@ -77,6 +77,10 @@
     "publisher": {
       "model": "publisher",
       "via": "games"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

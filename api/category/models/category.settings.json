@@ -22,8 +22,8 @@
       "targetField": "name"
     },
     "games": {
-      "collection": "game",
-      "via": "categories"
+      "via": "categories",
+      "collection": "game"
     }
   }
 }
