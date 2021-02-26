@@ -15,17 +15,17 @@
     "knex": "<0.20.0",
     "pg": "latest",
     "slugify": "^1.4.6",
-    "strapi": "3.3.4",
-    "strapi-admin": "3.3.4",
-    "strapi-connector-bookshelf": "3.3.4",
-    "strapi-plugin-content-manager": "3.3.4",
-    "strapi-plugin-content-type-builder": "3.3.4",
-    "strapi-plugin-email": "3.3.4",
+    "strapi": "3.4.0",
+    "strapi-admin": "3.4.0",
+    "strapi-connector-bookshelf": "3.4.0",
+    "strapi-plugin-content-manager": "3.4.0",
+    "strapi-plugin-content-type-builder": "3.4.0",
+    "strapi-plugin-email": "3.4.0",
     "strapi-plugin-entity-relationship-chart": "^3.1.0",
-    "strapi-plugin-graphql": "3.3.4",
-    "strapi-plugin-upload": "3.3.4",
-    "strapi-plugin-users-permissions": "3.3.4",
-    "strapi-utils": "3.3.4"
+    "strapi-plugin-graphql": "3.4.0",
+    "strapi-plugin-upload": "3.4.0",
+    "strapi-plugin-users-permissions": "3.4.0",
+    "strapi-utils": "3.4.0"
   },
   "author": {
     "name": "Henrique Oliveira"
