@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_ribbons",
+  "info": {
+    "name": "ribbon",
+    "icon": "ribbon"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium"
+      ]
+    }
+  }
+}
